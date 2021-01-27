@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#awk '{ print substr( $0, 1, length($0)-2 ) }'
-
 DORK=$1
 
 w_tech="AngularJS"
