@@ -32,10 +32,10 @@ Linux
 
 ## About Me
 
-* **DarkLotus** - *Cyber Security Researcher* - [DarkLotusKDB](https://github.com/darklotuskdb)
+* **DarkLotus** - *Cyber Security Researcher* - [DarkLotusKDB](https://darklotuskdb.github.io/KDBhati/)
 
 ### Social Media Handles
 * [Twitter](https://twitter.com/darklotuskdb)
-* [Medium](https://medium.com/@darklotus)
+* [Medium](https://darklotus.medium.com/)
 * [Linkedin](https://www.linkedin.com/in/kamaldeepbhati/)
 * [Instagram](https://www.instagram.com/kamaldeepbhati/)
