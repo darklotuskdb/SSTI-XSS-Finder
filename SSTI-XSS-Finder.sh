@@ -20,7 +20,7 @@ else
 			
 			for tar in $b; 
 				do 
-					echo -e "\n\n\e[1;34m[*]$tar\e[0m => \e[1;31mAngularJS $(wappalyzer https://$tar -P -w 7000| sed -n -e '/angularjs/,/website/ p' | grep version | tr -d '"version": ",' | tee v.txt) \e[0m $(if [[ -s v.txt ]]; then echo "\n\e[1;33m[+]XSS Payloads\n\e[0m $(g=$(cat v.txt | awk '{ print substr( $0, 1, length($0)-2 ) }') && grep "$g" Payloads.txt)"; else echo -e "\n[~] Help: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/XSS%20in%20Angular.md"; fi)";	
+					echo -e "\n\n\e[1;34m[*]$tar\e[0m => \e[1;31mAngularJS $(wappalyzer https://$tar -P -w 7000| sed -n -e '/angularjs/,/website/ p' | grep version | tr -d '"version": ",' | tee v.txt) \e[0m $(if [[ -s v.txt ]]; then echo "\n\e[1;33m[+]XSS Payloads\n\e[0m $(g=$(cat v.txt | awk '{ print substr( $0, 1, length($0)-2 ) }' | sed 's/\./\\./g') && grep "$g" Payloads.txt)"; else echo -e "\n[~] Help: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/XSS%20in%20Angular.md"; fi)";	
 				done
 			
 			rm v.txt
