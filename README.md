@@ -11,14 +11,15 @@ This tool will grap all target subdomains from shodan that are using AsgularJS T
 5. shodan init YOUR_API_KEY
 ```
 
+```
+git clone https://github.com/darklotuskdb/ssti-xss-finder.git && cd ssti-xss-finder && chmod +x SSTI-XSS-Finder.sh
+```
+
 ## Usage
 Linux
 
 ```
-1. git clone https://github.com/darklotuskdb/ssti-xss-finder.git
-2. cd SSTI-XSS-Finder
-3. chmod +x SSTI-XSS-Finder.sh
-4. ./SSTI-XSS-Finder.sh <Shodan-Dork>  like  org:target | hostname:target.com | net:127.0.0.1
+./SSTI-XSS-Finder.sh <Shodan-Dork>  like  org:target | hostname:target.com | net:127.0.0.1
 ```
 
 ## Screenshot
