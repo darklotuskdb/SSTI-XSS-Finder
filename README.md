@@ -12,7 +12,7 @@ This tool will grap all target subdomains from shodan that are using AsgularJS T
 ```
 
 ```
-git clone https://github.com/darklotuskdb/ssti-xss-finder.git && cd ssti-xss-finder && chmod +x SSTI-XSS-Finder.sh
+git clone https://github.com/darklotuskdb/ssti-xss-finder.git && cd ssti-xss-finder && chmod +x *.sh
 ```
 
 ## Usage
