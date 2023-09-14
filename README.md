@@ -6,9 +6,8 @@ This tool will grap all target subdomains from shodan that are using AsgularJS T
 ```
 1. npm i -g wappalyzer
 2. pip install -U setuptools
-3. easy_install shodan
-4. easy_install -U shodan
-5. shodan init YOUR_API_KEY
+3. pip install shodan
+4. shodan init YOUR_API_KEY
 ```
 
 ```
